@@ -10,7 +10,7 @@ Example of SOP (Same-origin policy) preventing a ´fetch´ response.
     - For the server that includes the header, the response is readable
 
 ## Tools
-Node.js / JavaScript / HTML5
+Node.js / JavaScript / Water.css / HTML5
 
 ## Author
 Arturo Mora-Rioja, with assistance from ChatGPT 5.2.
