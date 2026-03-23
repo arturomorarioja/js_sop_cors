@@ -7,6 +7,8 @@ Example of SOP (Same-origin policy) preventing a ´fetch´ response.
 3. Open the client (`index.html`) in the browser in port 5500. Make sure it is served as `localhost` and not `127.0.0.1`
 4. Check out the browser console
     - For the server that does not include the header, the request is not cancelled, but the client cannot reach the response
+        - Notice how the server logs the request in the console
+        - But the browser displays an error and blocks the server response
     - For the server that includes the header, the response is readable
 
 ## Tools
